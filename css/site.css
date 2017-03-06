@@ -1,0 +1,98 @@
+/*------------------------------------------------------------------------
+# Base Styles
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Media Queries
+-----------------------------------------------*/
+/* Larger than mobile screen */
+@media (min-width: 40.0rem) { }
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) { }
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) { }
+
+/*-----------------------------------------------
+## Typography
+-----------------------------------------------*/
+body {
+	color: rgba(0,0,0,0.8);
+	text-rendering: optimizeLegibility;
+}
+
+/*-----------------------------------------------
+## Nav
+-----------------------------------------------*/
+.nav {
+	margin: 0.5rem 0 1.0rem 2.5rem;
+}
+.nav li {
+	display: inline;
+}
+
+/*-----------------------------------------------
+## Pages
+-----------------------------------------------*/
+.row .column {
+    padding: 0 2.5rem;
+}
+.column ul {
+	font-size: 1.4rem;
+	padding: 0 1.5rem;
+}
+.credits p {
+	font-size: 1.2rem;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+/*-----------------------------------------------
+## Sections
+-----------------------------------------------*/
+section {
+	padding: 4.0rem 0;
+}
+section h2 a {
+	color: rgba(0,0,0,0.8);
+}
+section h2 a:hover,
+section h2 a:focus {
+	color: #606c76
+}
+
+/*-----------------------------------------------
+## Inverse Sections
+-----------------------------------------------*/
+.inverse,
+section:nth-child(2n) {
+	background: #222;
+	color: rgba(255,255,255,0.9);
+}
+.inverse h2,
+section:nth-child(2n) h2,
+section:nth-child(2n) h2 a {
+	color: #fff;
+}
+section:nth-child(2n) h2 a:hover,
+section:nth-child(2n) h2 a:focus {
+	color: rgba(255,255,255,0.7);
+}
+@media (min-width: 40.0rem) {
+	section:nth-child(2n) .row {
+		flex-direction: row-reverse;
+	}
+}
+
+/*-----------------------------------------------
+## Footer
+-----------------------------------------------*/
+footer {
+	font-size: 1.4rem;
+	padding: 1.5rem 0;
+	text-align: center;
+}
+.attribution {
+	margin-bottom: 0;
+}
