@@ -1,0 +1,31 @@
+baseurl = "//123.com"
+title = "123 Hugo"
+copyright = "&copy; 2017 | 123 Hugo"
+
+[params]
+  author = "Jimi Radabaugh"
+  description = "Demonstration of a three page site built with Hugo"
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"
+
+[[menu.main]]
+  name = "/"
+  url = "/"
+  weight = 0
+
+[[menu.main]]
+  name = "1"
+  url = "/1/"
+  weight = 1
+
+[[menu.main]]
+  name = "2"
+  url = "/2/"
+  weight = 2
+
+[[menu.main]]
+  name = "3"
+  url = "/3/"
+  weight = 3

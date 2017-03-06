@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<main>
+	<section class="{{ .Title | urlize }}{{if in .Params.tags "inverse" }} inverse{{ end }}">
+		<div class="container">
+			<div class="row">
+				<div class="column">
+				{{ if .Params.images }}
+				{{ range $index, $image := .Params.images }}
+					<img src="{{ $.Site.BaseURL }}/img/content/{{ . }}.png" id="img-{{ . }}" alt="{{ . | humanize }}" />
+				{{ end }}
+				{{ end }}
+				</div>	
+				<div class="column">
+					<h2>{{ .Title }}</h2>
+					{{ .Content }}
+					{{ with .Params.credits }}
+					<div class="credits">
+						<p>Credits:</p>
+						{{ range .credits }}
+						<p>{{ . }}</p>
+						{{ end }}
+					</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+{{ partial "footer.html" . }}

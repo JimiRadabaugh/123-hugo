@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	{{ .Hugo.Generator }}
+	{{ with .Site.Params.author }}
+	<meta name="author" content="{{ . }}">
+	{{ end }}
+	{{ with .Site.Params.description }}
+	<meta name="description" content="{{ . }}">
+	{{ end }}
+
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+	<!-- CSS Reset -->
+	<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+
+	<!-- Milligram CSS minified -->
+	<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="{{ "/css/site.css" | relURL }}">
+
+	<!-- Icons -->
+	<link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
+	<link rel="apple-touch-icon" type="image/png" href="{{ "/img/apple-touch-icon.png" | relURL }}">
+
+	<!-- Permalinks, Titles -->
+	<link rel="canonical" href="{{ .Permalink }}">
+	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+</head>
+<body>

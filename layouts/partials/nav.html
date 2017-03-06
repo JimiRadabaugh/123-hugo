@@ -1,0 +1,14 @@
+<nav class="nav-main">
+	<div class="container">
+		<div class="row">
+			<ul class="nav">
+				{{ range .Site.Menus.main }}
+				<li>
+					<a href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>{{ .Pre }}<span>{{ .Name }}</span>
+					</a>
+				</li>
+				{{ end }}
+			</ul>
+		</div>
+	</div>
+</nav>
