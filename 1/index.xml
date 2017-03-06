@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>One on 123 Hugo</title>
-    <link>//123.com/1/index.xml</link>
+    <link>https://jimiradabaugh.github.io/123-hugo/1/index.xml</link>
     <description>Recent content in One on 123 Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017 | 123 Hugo</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//123.com/1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jimiradabaugh.github.io/123-hugo/1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Armadillo</title>
-      <link>//123.com/1/armadillo/</link>
+      <link>https://jimiradabaugh.github.io/123-hugo/1/armadillo/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>//123.com/1/armadillo/</guid>
+      <guid>https://jimiradabaugh.github.io/123-hugo/1/armadillo/</guid>
       <description>&lt;p&gt;Armadillos are New World placental mammals with a leathery armor shell. The Chlamyphoridae and Dasypodidae are the only surviving families in the order Cingulata, part of the superorder Xenarthra, along with the anteaters and sloths. The word armadillo means &amp;lsquo;little armored one&amp;rsquo; in Spanish.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Bat</title>
-      <link>//123.com/1/bat/</link>
+      <link>https://jimiradabaugh.github.io/123-hugo/1/bat/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>//123.com/1/bat/</guid>
+      <guid>https://jimiradabaugh.github.io/123-hugo/1/bat/</guid>
       <description>&lt;p&gt;Bats are mammals of the order Chiroptera whose forelimbs form webbed wings, making them the only mammals naturally capable of true and sustained flight. Bats do not flap their entire forelimbs, as birds do, but instead flap their spread out digits.&lt;/p&gt;
 </description>
     </item>

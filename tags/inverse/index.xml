@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inverse on 123 Hugo</title>
-    <link>//123.com/tags/inverse/index.xml</link>
+    <link>https://jimiradabaugh.github.io/123-hugo/tags/inverse/index.xml</link>
     <description>Recent content in Inverse on 123 Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017 | 123 Hugo</copyright>
-    <atom:link href="//123.com/tags/inverse/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jimiradabaugh.github.io/123-hugo/tags/inverse/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bat</title>
-      <link>//123.com/1/bat/</link>
+      <link>https://jimiradabaugh.github.io/123-hugo/1/bat/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>//123.com/1/bat/</guid>
+      <guid>https://jimiradabaugh.github.io/123-hugo/1/bat/</guid>
       <description>&lt;p&gt;Bats are mammals of the order Chiroptera whose forelimbs form webbed wings, making them the only mammals naturally capable of true and sustained flight. Bats do not flap their entire forelimbs, as birds do, but instead flap their spread out digits.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Dragon</title>
-      <link>//123.com/2/dragon/</link>
+      <link>https://jimiradabaugh.github.io/123-hugo/2/dragon/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>//123.com/2/dragon/</guid>
+      <guid>https://jimiradabaugh.github.io/123-hugo/2/dragon/</guid>
       <description>&lt;p&gt;A dragon is a legendary creature, typically scaled or fire spewing and with serpentine, reptilian or avian traits, that features in the myths of many cultures around world. The two most well known cultural traditions of dragon are:&lt;/p&gt;
 
 &lt;ul&gt;
